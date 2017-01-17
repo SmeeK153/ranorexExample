@@ -1,0 +1,166 @@
+﻿<repository
+name="ExampleTestRepository"
+id="de4c7b63-4db3-4843-9d48-9b58db05ade9"
+rxversion="6.2">
+	<codegen
+	classname="ExampleTestRepository"
+	namespace="ExampleTest"/>
+	<rootfolder
+	name="Root"
+	id="37fefd60-d354-4e41-a55f-92004fe78efb"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="OficjalnaStronaPrezydentaRzeczypospol"
+		id="35f4f9f2-734c-4178-b74f-acbb30245477"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.prezydent.pl']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Kontakt"
+			id="f4bbf457-00de-4bb0-9518-5fd8f933849f"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='www.prezydent.pl']//div[#'zone1']/ul/li[2]/a[@href='http://www.prezydent.pl/kontakt/']/span[@innertext='Kontakt']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="d360fe45-f06b-4dac-a860-57b8909ed6d9">
+				/dom[@domain='www.prezydent.pl']//div[#'zone1']/ul//span[@innertext='Kontakt']
+			</item>
+			<item
+			name="Email"
+			id="7f6bfdb4-6ed9-4b90-8f6d-489a6e82bb38"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'email']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="eede3197-ddc5-4800-8d6e-c2f364261832">
+				/dom[@domain='www.prezydent.pl']//input[#'email']
+			</item>
+			<item
+			name="Imie"
+			id="f2a1260f-3aa7-47eb-8618-f0a18caedcf3"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'imie']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="95e7ea48-bcae-4e71-b94b-26352de1044f">
+				/dom[@domain='www.prezydent.pl']//input[#'imie']
+			</item>
+			<item
+			name="Nazwisko"
+			id="aebb9212-7953-4f4e-92cd-5426000bc4d0"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'nazwisko']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="c30790fd-69d4-4cc8-8314-e60bc21c87a6">
+				/dom[@domain='www.prezydent.pl']//input[#'nazwisko']
+			</item>
+			<item
+			name="KontaktFormularzKraj"
+			id="1e5a76d5-4e18-48bf-b9e9-e9914a3bcbfb"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			refpath="/dom[@domain='www.prezydent.pl']//select[#'kontakt_formularz_kraj']"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="09bc014a-8716-406a-bbf5-876ae38220e7">
+				/dom[@domain='www.prezydent.pl']//select[#'kontakt_formularz_kraj']
+			</item>
+			<item
+			name="Miejscowosc"
+			id="23afdc26-bb5d-4417-aeb8-462075798a12"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'miejscowosc']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="b5c4fe5c-1cd7-4c80-9960-d0b49274678b">
+				/dom[@domain='www.prezydent.pl']//input[#'miejscowosc']
+			</item>
+			<item
+			name="KodPocztowy"
+			id="373e2623-ca2b-4535-9c8b-70e11b2d9428"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'kod_pocztowy']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="3cf00a12-584c-493e-904c-aacf3663155f">
+				/dom[@domain='www.prezydent.pl']//input[#'kod_pocztowy']
+			</item>
+			<item
+			name="Adres"
+			id="d764affa-f4e2-4f2d-953a-852a6e3de1c2"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'adres']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2268124b-b8c7-424b-963e-799c65e8f162">
+				/dom[@domain='www.prezydent.pl']//input[#'adres']
+			</item>
+			<item
+			name="Tresc"
+			id="7a1812ab-00e2-47d5-a0ba-9b7a037c912f"
+			searchtimeout="30000ms"
+			capname="textareatag"
+			refpath="/dom[@domain='www.prezydent.pl']//textarea[#'tresc']"
+			addcaps="unknown,webelement,textareatag"
+			refimgid="beac3c4e-93e3-43c3-8459-7388415857ba">
+				/dom[@domain='www.prezydent.pl']//textarea[#'tresc']
+			</item>
+			<item
+			name="KodObrazkowy"
+			id="ad146c82-fd04-4858-b70b-b47214701f0c"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'kod_obrazkowy']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="41beadb3-9641-4063-a4fa-615608bc7d6b">
+				/dom[@domain='www.prezydent.pl']//input[#'kod_obrazkowy']
+			</item>
+			<item
+			name="Zgoda"
+			id="b1a81365-3021-47b1-81d4-d6e45b7ab6fc"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.prezydent.pl']//input[#'zgoda']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="35def738-9596-4453-a095-8512c0fb5379">
+				/dom[@domain='www.prezydent.pl']//input[#'zgoda']
+			</item>
+			<item
+			name="Form"
+			id="01675cd6-1274-472d-88c7-42f41d8fcc3e"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='www.prezydent.pl']//div[#'zone0']/form/div[1]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="b8ed24ae-e6f1-4a03-b9c4-606fe730b50b">
+				/dom[@domain='www.prezydent.pl']//div[#'zone0']/form[@name='kontakt_form']/div[1]
+			</item>
+			<basepath>
+				/dom[@domain='www.prezydent.pl']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

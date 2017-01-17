@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="edaa0161-09f3-449b-b74d-0ef5692cdcd5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Switch
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Switch"
+	namespace="ExampleTest"/>
+	<variables/>
+	<recorditems>
+		<invokeactionrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c31a6f4e-a3cf-4187-b26d-b37f9f34cb03"
+		action="WaitForDocumentLoaded"
+		varname="">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="35f4f9f2-734c-4178-b74f-acbb30245477">
+				<element
+				role="container"
+				prefcap="webdocument"
+				capabilities="webdocument"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				uidroot="True"
+				index="6"
+				rect="-1600,66,1600,794"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Oficjalna strona Prezydenta Rzeczypospolitej Polskiej
+					</attribute>
+					<attribute
+					name="browser"
+					type="Ranorex.Form, Ranorex.Core, Culture=neutral">
+						{Form:Oficjalna strona Prezydenta Rzeczypospolitej Polskiej - Google Chrome}
+					</attribute>
+					<attribute
+					name="browsername"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						55.0.2883.87
+					</attribute>
+					<attribute
+					name="domain"
+					type="System.String">
+						www.prezydent.pl
+					</attribute>
+					<attribute
+					name="fullscreen"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="page"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="pageurl"
+					type="System.String">
+						http://www.prezydent.pl/
+					</attribute>
+					<attribute
+					name="path"
+					type="System.String">
+						/
+					</attribute>
+					<attribute
+					name="state"
+					type="System.String">
+						complete
+					</attribute>
+					<dynamicaction
+					displayName="EnableAccessibleRenderer"
+					description="Enables the Chrome accessible renderer mode."/>
+				</element>
+				<path>
+					/dom[@domain='www.prezydent.pl']
+				</path>
+			</info>
+			<arguments
+			id="aca31139-33d5-43b7-8e1c-232972b7e8c1">
+				<argument
+				argname="timeout"
+				id="c79cf082-6172-40d2-a961-e34e152e38d4">
+					<argvaluetype>
+						Ranorex.Duration, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+						30000ms
+					</argvalue>
+				</argument>
+			</arguments>
+		</invokeactionrecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="70dbbc3b-3308-4bf3-91ad-deb0a1af9a52"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="f4bbf457-00de-4bb0-9518-5fd8f933849f">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="-440,77,57,16"
+				snapElem="">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Kontakt
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.prezydent.pl']//div[#'zone1']/ul//span[@innertext='Kontakt']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="52258a6a-09bf-4462-bc8b-d67b62229b7b">
+				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
+			</helperscreenshot>
+			<matchname/>
+			<matchvalue/>
+		</validationitem>
+		<invokeactionrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="66cf4037-6707-48a6-b1bd-922d07aecc0f"
+		action="PerformClick"
+		varname="">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="f4bbf457-00de-4bb0-9518-5fd8f933849f">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="-440,77,57,16"
+				snapElem="">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Kontakt
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.prezydent.pl']//div[#'zone1']/ul//span[@innertext='Kontakt']
+				</path>
+			</info>
+			<arguments
+			id="fa48efed-8b38-495e-9a1f-a0e4ae828294"/>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	name="ExampleTestRepository"
+	id="de4c7b63-4db3-4843-9d48-9b58db05ade9"
+	rxversion="6.2"
+	relativepath="ExampleTestRepository.rxrep">
+		<codegen
+		classname="ExampleTestRepository"
+		namespace="ExampleTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="37fefd60-d354-4e41-a55f-92004fe78efb"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Switch.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

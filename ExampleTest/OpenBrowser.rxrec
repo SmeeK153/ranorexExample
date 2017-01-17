@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="c9d72d9a-dd1e-454f-9a0f-707294e12a2e"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="ExampleTest"/>
+	<variables>
+		<var
+		name="browser"
+		id="6b264afb-3d06-4ffd-bef4-88f89f24f7bf">
+			Chrome
+		</var>
+		<var
+		name="url"
+		id="41fea0a2-6e28-41b0-ba5c-32d1cfeb598d">
+			Chrome
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="Chrome"
+		args=""
+		maximized="True"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="browser"/>
+				<binding
+				target="Url"
+				variable="url"/>
+			</bindings>
+			<url>
+				http://www.prezydent.pl/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="ExampleTestRepository"
+	id="de4c7b63-4db3-4843-9d48-9b58db05ade9"
+	rxversion="6.2"
+	relativepath="ExampleTestRepository.rxrep">
+		<codegen
+		classname="ExampleTestRepository"
+		namespace="ExampleTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="37fefd60-d354-4e41-a55f-92004fe78efb"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
